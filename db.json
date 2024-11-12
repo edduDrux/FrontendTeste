@@ -1,0 +1,54 @@
+{
+    "products": [
+      {
+        "id": "heatx7j",
+        "name": "Camiseta Básica",
+        "description": "Camiseta de algodão 100% confortável e versátil.",
+        "price": 600
+      },
+      {
+        "id": "3ir2l4z",
+        "name": "Calça Jeans",
+        "description": "Calça jeans de alta qualidade, ideal para o dia a dia.",
+        "price": 129.9
+      },
+      {
+        "id": "y5pk7qg",
+        "name": "Tênis Esportivo",
+        "description": "Tênis leve e confortável para atividades esportivas.",
+        "price": 199.99
+      },
+      {
+        "id": "unnuozc",
+        "name": "Relógio Digital",
+        "description": "Relógio resistente à água com cronômetro e alarme.",
+        "price": 299.9
+      },
+      {
+        "id": "d90tyyj",
+        "name": "Mochila Executiva",
+        "description": "Mochila espaçosa, perfeita para levar notebook e acessórios.",
+        "price": 149.99
+      },
+      {
+        "id": "krtcbjw",
+        "name": "Fone de Ouvido Bluetooth",
+        "description": "Fone de ouvido sem fio com excelente qualidade de som.",
+        "price": 89.9
+      }
+    ],
+    "clients": [
+      {
+        "id": "19a7",
+        "email": "teste@gmail.com",
+        "password": "123",
+        "role": "cliente"
+      },
+      {
+        "id": "e6bf",
+        "email": "clovis@gmail.com",
+        "password": "123"
+      }
+    ],
+    "managers": []
+  }

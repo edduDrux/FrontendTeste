@@ -1,0 +1,23 @@
+<div class="product-manager">
+    <h2>Gerenciamento de Produtos</h2>
+  
+    <input type="text" placeholder="Buscar produtos..." [(ngModel)]="searchQuery" (input)="onSearch()" />
+  
+    <form [formGroup]="productForm" (ngSubmit)="productForm.value.id ? onUpdate() : onAdd()">
+      <input formControlName="name" placeholder="Nome do Produto" required />
+      <input formControlName="description" placeholder="Descrição" required />
+      <input formControlName="price" placeholder="Preço" required type="number" />
+  
+      <button type="submit">{{ productForm.value.id ? 'Atualizar' : 'Adicionar' }} Produto</button>
+    </form>
+  
+    <ul>
+      <li *ngFor="let product of products">
+        <p>{{ product.name }} - {{ product.price | currency }}</p>
+        <div class="actions">
+          <button (click)="onEdit(product)">Editar</button>
+          <button (click)="onDelete(product.id)">Excluir</button>
+        </div>
+      </li>
+    </ul>
+  </div>

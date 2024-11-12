@@ -1,0 +1,11 @@
+<h2>Lista de Produtos</h2>
+<div class="product-grid">
+  <div class="product-card" *ngFor="let product of products">
+    <div class="card-content">
+      <h3>{{ product.name }}</h3>
+      <p class="price">R$ {{ product.price | number: '1.2-2' }}</p>
+      <p class="description">{{ product.description }}</p>
+      <button>Adicionar ao Carrinho</button>
+    </div>
+  </div>
+</div>
