@@ -30,6 +30,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 É nescessario rodar o comando `json-server --watch db.json --port 3000` em um terminal, e também sera nescessario rodar em um outro terminal o comando `ng serve` para rodar o ambiente do Angular.
 
+## EndPoints do Angular
+-- http://localhost:4200/products
+-- http://localhost:4200/register
+-- http://localhost:4200/login
+-- http://localhost:4200/manager
+
 ## EndPoints do Json server
 
 index
